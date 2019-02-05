@@ -14,6 +14,7 @@
 		EA9C9D47220975F900810AD9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C9D46220975F900810AD9 /* SignUpViewController.swift */; };
 		EA9C9D4A220977E800810AD9 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C9D49220977E800810AD9 /* Utility.swift */; };
 		F24B31742209D7C80089F5E6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B31732209D7C80089F5E6 /* ProfileViewController.swift */; };
+		F24B317A2209FD270089F5E6 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B31792209FD270089F5E6 /* TabViewController.swift */; };
 		F2D6E80B22087CE600CA9DE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6E80A22087CE600CA9DE3 /* AppDelegate.swift */; };
 		F2D6E81222087CE600CA9DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D6E81022087CE600CA9DE3 /* Main.storyboard */; };
 		F2D6E81422087CEB00CA9DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D6E81322087CEB00CA9DE3 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		EA9C9D46220975F900810AD9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		EA9C9D49220977E800810AD9 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		F24B31732209D7C80089F5E6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F24B31792209FD270089F5E6 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		F2D6E80722087CE600CA9DE3 /* MoneyTrading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTrading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D6E80A22087CE600CA9DE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2D6E81122087CE600CA9DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				2C487BB0220999B700A6488E /* PopUpViewController.swift */,
 				F2D6E8322209D08D00CA9DE3 /* DashBoardTableViewController.swift */,
 				F24B31732209D7C80089F5E6 /* ProfileViewController.swift */,
+				F24B31792209FD270089F5E6 /* TabViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				F2D6E82222087E4A00CA9DE3 /* MarketWatchViewController.swift in Sources */,
 				F2D6E8332209D08D00CA9DE3 /* DashBoardTableViewController.swift in Sources */,
 				F2D6E82922087FAE00CA9DE3 /* Stock.swift in Sources */,
+				F24B317A2209FD270089F5E6 /* TabViewController.swift in Sources */,
 				F2D6E80B22087CE600CA9DE3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

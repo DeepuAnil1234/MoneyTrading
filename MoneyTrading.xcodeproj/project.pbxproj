@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C487BAF2209942B00A6488E /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C487BAE2209942B00A6488E /* TabViewController.swift */; };
 		2C487BB1220999B700A6488E /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C487BB0220999B700A6488E /* PopUpViewController.swift */; };
 		2C487BB322099A9D00A6488E /* RKYUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C487BB222099A9D00A6488E /* RKYUITextField.swift */; };
 		2C59009C220956BA008F71C0 /* MoneyTrading.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 2C59009B220956BA008F71C0 /* MoneyTrading.xcdatamodel */; };
@@ -30,7 +29,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C487BAE2209942B00A6488E /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		2C487BB0220999B700A6488E /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		2C487BB222099A9D00A6488E /* RKYUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKYUITextField.swift; sourceTree = "<group>"; };
 		2C59009B220956BA008F71C0 /* MoneyTrading.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyTrading.xcdatamodel; sourceTree = "<group>"; };
@@ -115,12 +113,12 @@
 		F2D6E80922087CE600CA9DE3 /* MoneyTrading */ = {
 			isa = PBXGroup;
 			children = (
+				F2D6E80A22087CE600CA9DE3 /* AppDelegate.swift */,
 				F2D6E82022087DF400CA9DE3 /* Models */,
 				F2D6E81F22087DED00CA9DE3 /* Views */,
 				F2D6E81E22087DE700CA9DE3 /* Controllers */,
 				EA9C9D48220977B600810AD9 /* Helper */,
 				F2D6E81022087CE600CA9DE3 /* Main.storyboard */,
-				2C487BAE2209942B00A6488E /* TabViewController.swift */,
 				F2D6E82522087F3500CA9DE3 /* JsonFile */,
 				F2D6E81322087CEB00CA9DE3 /* Assets.xcassets */,
 				F2D6E81522087CEB00CA9DE3 /* LaunchScreen.storyboard */,
@@ -156,7 +154,6 @@
 		F2D6E82022087DF400CA9DE3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F2D6E80A22087CE600CA9DE3 /* AppDelegate.swift */,
 				F2D6E82822087FAE00CA9DE3 /* Stock.swift */,
 			);
 			path = Models;
@@ -296,7 +293,6 @@
 				F2D6E82222087E4A00CA9DE3 /* MarketWatchViewController.swift in Sources */,
 				F2D6E8332209D08D00CA9DE3 /* DashBoardTableViewController.swift in Sources */,
 				F2D6E82922087FAE00CA9DE3 /* Stock.swift in Sources */,
-				2C487BAF2209942B00A6488E /* TabViewController.swift in Sources */,
 				F2D6E80B22087CE600CA9DE3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

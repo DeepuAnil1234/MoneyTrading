@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C487BAF2209942B00A6488E /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C487BAE2209942B00A6488E /* TabViewController.swift */; };
+		2C487BB1220999B700A6488E /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C487BB0220999B700A6488E /* PopUpViewController.swift */; };
+		2C487BB322099A9D00A6488E /* RKYUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C487BB222099A9D00A6488E /* RKYUITextField.swift */; };
+		2C59009C220956BA008F71C0 /* MoneyTrading.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 2C59009B220956BA008F71C0 /* MoneyTrading.xcdatamodel */; };
+		83BE0765F8F2CBA5FCF054C9 /* Pods_MoneyTrading.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1B01C4497EB537C34678CD /* Pods_MoneyTrading.framework */; };
+		EA9C9D47220975F900810AD9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C9D46220975F900810AD9 /* SignUpViewController.swift */; };
+		EA9C9D4A220977E800810AD9 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C9D49220977E800810AD9 /* Utility.swift */; };
+		F24B31742209D7C80089F5E6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24B31732209D7C80089F5E6 /* ProfileViewController.swift */; };
+		F2D6E80B22087CE600CA9DE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6E80A22087CE600CA9DE3 /* AppDelegate.swift */; };
+		F2D6E81222087CE600CA9DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D6E81022087CE600CA9DE3 /* Main.storyboard */; };
+		F2D6E81422087CEB00CA9DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D6E81322087CEB00CA9DE3 /* Assets.xcassets */; };
+		F2D6E81722087CEB00CA9DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D6E81522087CEB00CA9DE3 /* LaunchScreen.storyboard */; };
+		F2D6E82222087E4A00CA9DE3 /* MarketWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6E82122087E4A00CA9DE3 /* MarketWatchViewController.swift */; };
+		F2D6E82422087E6600CA9DE3 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6E82322087E6600CA9DE3 /* OrdersViewController.swift */; };
+		F2D6E82722087F6D00CA9DE3 /* marketwatch.json in Resources */ = {isa = PBXBuildFile; fileRef = F2D6E82622087F6D00CA9DE3 /* marketwatch.json */; };
+		F2D6E82922087FAE00CA9DE3 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6E82822087FAE00CA9DE3 /* Stock.swift */; };
+		F2D6E82C2208815200CA9DE3 /* StockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6E82A2208815200CA9DE3 /* StockTableViewCell.swift */; };
+		F2D6E82D2208815200CA9DE3 /* StockTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D6E82B2208815200CA9DE3 /* StockTableViewCell.xib */; };
+		F2D6E82F22088B5400CA9DE3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6E82E22088B5400CA9DE3 /* LoginViewController.swift */; };
+		F2D6E8332209D08D00CA9DE3 /* DashBoardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6E8322209D08D00CA9DE3 /* DashBoardTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C487BAE2209942B00A6488E /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		2C487BB0220999B700A6488E /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		2C487BB222099A9D00A6488E /* RKYUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKYUITextField.swift; sourceTree = "<group>"; };
+		2C59009B220956BA008F71C0 /* MoneyTrading.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyTrading.xcdatamodel; sourceTree = "<group>"; };
+		3F611F2A68346DC0A01417B6 /* Pods-MoneyTrading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTrading.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyTrading/Pods-MoneyTrading.debug.xcconfig"; sourceTree = "<group>"; };
+		DC1B01C4497EB537C34678CD /* Pods_MoneyTrading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyTrading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3517F24C0F340080A24AAD5 /* Pods-MoneyTrading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyTrading.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoneyTrading/Pods-MoneyTrading.release.xcconfig"; sourceTree = "<group>"; };
+		EA9C9D46220975F900810AD9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EA9C9D49220977E800810AD9 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		F24B31732209D7C80089F5E6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F2D6E80722087CE600CA9DE3 /* MoneyTrading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTrading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D6E80A22087CE600CA9DE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2D6E81122087CE600CA9DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2D6E81322087CEB00CA9DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2D6E81622087CEB00CA9DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2D6E81822087CEB00CA9DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D6E82122087E4A00CA9DE3 /* MarketWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketWatchViewController.swift; sourceTree = "<group>"; };
+		F2D6E82322087E6600CA9DE3 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		F2D6E82622087F6D00CA9DE3 /* marketwatch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = marketwatch.json; sourceTree = "<group>"; };
+		F2D6E82822087FAE00CA9DE3 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		F2D6E82A2208815200CA9DE3 /* StockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableViewCell.swift; sourceTree = "<group>"; };
+		F2D6E82B2208815200CA9DE3 /* StockTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StockTableViewCell.xib; sourceTree = "<group>"; };
+		F2D6E82E22088B5400CA9DE3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F2D6E8322209D08D00CA9DE3 /* DashBoardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2D6E80422087CE600CA9DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BE0765F8F2CBA5FCF054C9 /* Pods_MoneyTrading.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFB1D4EFE2AD0F5FB28EDCA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC1B01C4497EB537C34678CD /* Pods_MoneyTrading.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF2E30A99840832A4378571D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F611F2A68346DC0A01417B6 /* Pods-MoneyTrading.debug.xcconfig */,
+				E3517F24C0F340080A24AAD5 /* Pods-MoneyTrading.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA9C9D48220977B600810AD9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2C487BB222099A9D00A6488E /* RKYUITextField.swift */,
+				EA9C9D49220977E800810AD9 /* Utility.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F2D6E7FE22087CE600CA9DE3 = {
+			isa = PBXGroup;
+			children = (
+				F2D6E80922087CE600CA9DE3 /* MoneyTrading */,
+				F2D6E80822087CE600CA9DE3 /* Products */,
+				DF2E30A99840832A4378571D /* Pods */,
+				BFB1D4EFE2AD0F5FB28EDCA4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2D6E80822087CE600CA9DE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2D6E80722087CE600CA9DE3 /* MoneyTrading.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2D6E80922087CE600CA9DE3 /* MoneyTrading */ = {
+			isa = PBXGroup;
+			children = (
+				F2D6E82022087DF400CA9DE3 /* Models */,
+				F2D6E81F22087DED00CA9DE3 /* Views */,
+				F2D6E81E22087DE700CA9DE3 /* Controllers */,
+				EA9C9D48220977B600810AD9 /* Helper */,
+				F2D6E81022087CE600CA9DE3 /* Main.storyboard */,
+				2C487BAE2209942B00A6488E /* TabViewController.swift */,
+				F2D6E82522087F3500CA9DE3 /* JsonFile */,
+				F2D6E81322087CEB00CA9DE3 /* Assets.xcassets */,
+				F2D6E81522087CEB00CA9DE3 /* LaunchScreen.storyboard */,
+				2C59009B220956BA008F71C0 /* MoneyTrading.xcdatamodel */,
+				F2D6E81822087CEB00CA9DE3 /* Info.plist */,
+			);
+			path = MoneyTrading;
+			sourceTree = "<group>";
+		};
+		F2D6E81E22087DE700CA9DE3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2D6E82122087E4A00CA9DE3 /* MarketWatchViewController.swift */,
+				F2D6E82322087E6600CA9DE3 /* OrdersViewController.swift */,
+				F2D6E82E22088B5400CA9DE3 /* LoginViewController.swift */,
+				EA9C9D46220975F900810AD9 /* SignUpViewController.swift */,
+				2C487BB0220999B700A6488E /* PopUpViewController.swift */,
+				F2D6E8322209D08D00CA9DE3 /* DashBoardTableViewController.swift */,
+				F24B31732209D7C80089F5E6 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F2D6E81F22087DED00CA9DE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2D6E82A2208815200CA9DE3 /* StockTableViewCell.swift */,
+				F2D6E82B2208815200CA9DE3 /* StockTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2D6E82022087DF400CA9DE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2D6E80A22087CE600CA9DE3 /* AppDelegate.swift */,
+				F2D6E82822087FAE00CA9DE3 /* Stock.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2D6E82522087F3500CA9DE3 /* JsonFile */ = {
+			isa = PBXGroup;
+			children = (
+				F2D6E82622087F6D00CA9DE3 /* marketwatch.json */,
+			);
+			path = JsonFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2D6E80622087CE600CA9DE3 /* MoneyTrading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D6E81B22087CEB00CA9DE3 /* Build configuration list for PBXNativeTarget "MoneyTrading" */;
+			buildPhases = (
+				8EA55C2F7C9ED326DEF4730E /* [CP] Check Pods Manifest.lock */,
+				F2D6E80322087CE600CA9DE3 /* Sources */,
+				F2D6E80422087CE600CA9DE3 /* Frameworks */,
+				F2D6E80522087CE600CA9DE3 /* Resources */,
+				08AF77384A39A6283485DEFD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyTrading;
+			productName = MoneyTrading;
+			productReference = F2D6E80722087CE600CA9DE3 /* MoneyTrading.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2D6E7FF22087CE600CA9DE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "ANIL KUMAR MEDIKONDA";
+				TargetAttributes = {
+					F2D6E80622087CE600CA9DE3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F2D6E80222087CE600CA9DE3 /* Build configuration list for PBXProject "MoneyTrading" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2D6E7FE22087CE600CA9DE3;
+			productRefGroup = F2D6E80822087CE600CA9DE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2D6E80622087CE600CA9DE3 /* MoneyTrading */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2D6E80522087CE600CA9DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D6E81722087CEB00CA9DE3 /* LaunchScreen.storyboard in Resources */,
+				F2D6E81422087CEB00CA9DE3 /* Assets.xcassets in Resources */,
+				F2D6E82D2208815200CA9DE3 /* StockTableViewCell.xib in Resources */,
+				F2D6E81222087CE600CA9DE3 /* Main.storyboard in Resources */,
+				F2D6E82722087F6D00CA9DE3 /* marketwatch.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08AF77384A39A6283485DEFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MoneyTrading/Pods-MoneyTrading-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoneyTrading/Pods-MoneyTrading-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA55C2F7C9ED326DEF4730E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoneyTrading-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2D6E80322087CE600CA9DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D6E82F22088B5400CA9DE3 /* LoginViewController.swift in Sources */,
+				F2D6E82C2208815200CA9DE3 /* StockTableViewCell.swift in Sources */,
+				EA9C9D4A220977E800810AD9 /* Utility.swift in Sources */,
+				2C487BB1220999B700A6488E /* PopUpViewController.swift in Sources */,
+				F24B31742209D7C80089F5E6 /* ProfileViewController.swift in Sources */,
+				2C487BB322099A9D00A6488E /* RKYUITextField.swift in Sources */,
+				EA9C9D47220975F900810AD9 /* SignUpViewController.swift in Sources */,
+				2C59009C220956BA008F71C0 /* MoneyTrading.xcdatamodel in Sources */,
+				F2D6E82422087E6600CA9DE3 /* OrdersViewController.swift in Sources */,
+				F2D6E82222087E4A00CA9DE3 /* MarketWatchViewController.swift in Sources */,
+				F2D6E8332209D08D00CA9DE3 /* DashBoardTableViewController.swift in Sources */,
+				F2D6E82922087FAE00CA9DE3 /* Stock.swift in Sources */,
+				2C487BAF2209942B00A6488E /* TabViewController.swift in Sources */,
+				F2D6E80B22087CE600CA9DE3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2D6E81022087CE600CA9DE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D6E81122087CE600CA9DE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2D6E81522087CEB00CA9DE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D6E81622087CEB00CA9DE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2D6E81922087CEB00CA9DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2D6E81A22087CEB00CA9DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2D6E81C22087CEB00CA9DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F611F2A68346DC0A01417B6 /* Pods-MoneyTrading.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoneyTrading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EXample.MoneyTrading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2D6E81D22087CEB00CA9DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3517F24C0F340080A24AAD5 /* Pods-MoneyTrading.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MoneyTrading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EXample.MoneyTrading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2D6E80222087CE600CA9DE3 /* Build configuration list for PBXProject "MoneyTrading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D6E81922087CEB00CA9DE3 /* Debug */,
+				F2D6E81A22087CEB00CA9DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D6E81B22087CEB00CA9DE3 /* Build configuration list for PBXNativeTarget "MoneyTrading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D6E81C22087CEB00CA9DE3 /* Debug */,
+				F2D6E81D22087CEB00CA9DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2D6E7FF22087CE600CA9DE3 /* Project object */;
+}

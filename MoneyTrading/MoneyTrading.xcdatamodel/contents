@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BUYCD" representedClassName="BUYCD" syncable="YES" codeGenerationType="class">
+        <attribute name="quantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stockCurrentPrice" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="stockExchange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stockID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="stockName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SELLCD" representedClassName="SELLCD" syncable="YES" codeGenerationType="class">
+        <attribute name="quantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stockCurrentPrice" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="stockExchange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stockID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="stockName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BUYCD" positionX="-54" positionY="-9" width="128" height="120"/>
+        <element name="SELLCD" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
+</model>
